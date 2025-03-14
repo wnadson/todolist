@@ -1,0 +1,41 @@
+# Modern Todo List 📋⏱️
+
+Uma lista de tarefas moderna e minimalista com timer integrado e persistência local
+
+![Preview](preview.jpg) <!-- Adicione uma imagem de preview posteriormente -->
+
+## Funcionalidades ✨
+
+- ✅ Adição de novas tarefas
+- 🗑️ Exclusão de tarefas
+- ✔️ Marcação de tarefas como completas
+- ⏱️ Timer mostrando tempo de execução (DD HH:MM:SS)
+- 💾 Persistência de dados no LocalStorage
+- 📱 Design responsivo
+- 🎨 Animações suaves em interações
+- 🐳 Pronto para Docker
+
+## Tecnologias Utilizadas 🛠️
+
+- HTML5 Semântico
+- CSS3 Moderno (Grid, Flexbox, Variáveis)
+- JavaScript ES6+
+- LocalStorage
+- Font Awesome Icons
+- Docker (Opcional)
+
+## Como Usar 🚀
+
+### Sem Docker:
+1. Clone o repositório
+2. Abra o `index.html` no navegador
+
+### Com Docker:
+```bash
+# Build da imagem
+docker-compose build
+
+# Iniciar container
+docker-compose up -d
+
+# Acesse http://localhost:8080
